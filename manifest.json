@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "diy new tab url",
+    "description": "This extension diy your chorme new tab url",
+    "version": "1.1.1",
+    "chrome_url_overrides": {
+        "newtab": "go.html"
+    },
+    "icons": {
+        "128": "icon-128.png",
+        "64": "icon-64.png",
+        "32": "icon-32.png",
+        "16": "icon-16.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
